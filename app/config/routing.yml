@@ -1,0 +1,4 @@
+msp_style:
+    resource: "@MSPStyleBundle/Resources/config/routing.yml"
+    prefix:   /
+
