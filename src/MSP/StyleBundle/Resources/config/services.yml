@@ -1,0 +1,7 @@
+parameters:
+#    msp_style.example.class: MSP\StyleBundle\Example
+
+services:
+#    msp_style.example:
+#        class: %msp_style.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
