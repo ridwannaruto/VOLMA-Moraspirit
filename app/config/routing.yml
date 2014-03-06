@@ -1,4 +1,10 @@
+msp_registration:
+    resource: "@MSPRegistrationBundle/Resources/config/routing.yml"
+    prefix:   /
+
 msp_style:
     resource: "@MSPStyleBundle/Resources/config/routing.yml"
     prefix:   /
+
+
 

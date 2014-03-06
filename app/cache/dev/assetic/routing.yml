@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: 'C:/xampp/htdocs/MSP/app/config/routing_dev.yml'
+    resource: 'C:/Users/Nazick/Documents/NetBeansProjects/MSP/app/config/routing_dev.yml'

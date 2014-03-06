@@ -1,0 +1,11 @@
+msp_registration_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: MSPRegistrationBundle:Default:index }
+
+msp_signup:
+    pattern:  /signup
+    defaults: {_controller: MSPRegistrationBundle:Default:signup}
+
+msp_login:
+    pattern:  /login
+    defaults: {_controller: MSPRegistrationBundle:Default:signup}

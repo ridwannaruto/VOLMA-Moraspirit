@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSP\RegistrationBundle\Entity\User" table="user">
+    <id name="indexNumber" type="string" column="index_number" length="10">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="firstName" type="string" column="first_name" length="20" nullable="false"/>
+    <field name="lastName" type="string" column="last_name" length="20" nullable="false"/>
+    <field name="email" type="string" column="email" length="20" nullable="false"/>
+    <field name="department" type="string" column="department" length="15" nullable="false"/>
+    <field name="phoneNumber" type="integer" column="phone_number" nullable="true"/>
+    <field name="pillar" type="string" column="pillar" length="10" nullable="false"/>
+    <field name="address" type="string" column="address" length="50" nullable="false"/>
+    <field name="facebookUsername" type="string" column="facebook_username" length="25" nullable="true"/>
+    <field name="skypeUserName" type="string" column="skype_user_name" length="25" nullable="true"/>
+  </entity>
+</doctrine-mapping>
