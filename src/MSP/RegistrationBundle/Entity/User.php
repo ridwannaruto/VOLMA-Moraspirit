@@ -40,9 +40,24 @@ class User
     private $pillar;
 
     /**
-     * @var integer
+     * @var string
      */
-    private $id;
+    private $address;
+
+    /**
+     * @var string
+     */
+    private $facebookUsername;
+
+    /**
+     * @var string
+     */
+    private $skypeUserName;
+
+    /**
+     * @var string
+     */
+    private $indexNumber;
 
 
     /**
@@ -184,36 +199,6 @@ class User
     }
 
     /**
-     * Get id
-     *
-     * @return integer 
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-    /**
-     * @var string
-     */
-    private $address;
-
-    /**
-     * @var string
-     */
-    private $facebookUsername;
-
-    /**
-     * @var string
-     */
-    private $skypeUserName;
-
-    /**
-     * @var string
-     */
-    private $indexNumber;
-
-
-    /**
      * Set address
      *
      * @param string $address
@@ -291,6 +276,4 @@ class User
     {
         return $this->indexNumber;
     }
-    
-
 }
