@@ -276,4 +276,11 @@ class User
     {
         return $this->indexNumber;
     }
+    
+    public function setIndexNumber($indexNumber)
+    {
+        $this->indexNumber = $indexNumber;
+
+        return $this;
+    }
 }
